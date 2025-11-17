@@ -19,17 +19,12 @@ class BRXInfinite:
     
     def chat_interface(self):
         print("BRX ∞ - Sistema Iniciado!")
-        print("Digite 'status' para ver status do sistema")
-        print("Digite 'sair' para encerrar")
-        
+        print("Digite 'status' para ver o status do sistema")
+
         while True:
             user_input = input("\nVocê: ")
             
-            if user_input.lower() == 'sair':
-                self.running = False
-                print("Até mais!")
-                break
-            elif user_input.lower() == 'status':
+            if user_input.lower() == 'status':
                 status = self.api.get_system_status()
                 print(f"\n{status['eternal_status']['symbolic_version']}")
                 print(f"Build: {status['eternal_status']['internal_build']}")
