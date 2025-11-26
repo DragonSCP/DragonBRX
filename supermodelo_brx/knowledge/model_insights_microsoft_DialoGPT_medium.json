@@ -1,0 +1,41 @@
+{
+  "model_name": "microsoft/DialoGPT-medium",
+  "timestamp": "2025-11-26T12:30:53.290553",
+  "architecture": {
+    "hidden_size": 1024,
+    "num_hidden_layers": 24,
+    "num_attention_heads": 16,
+    "intermediate_size": null,
+    "hidden_act": null,
+    "max_position_embeddings": 1024,
+    "model_type": "gpt2"
+  },
+  "training_insights": {
+    "layer_norm_eps": null,
+    "initializer_range": 0.02,
+    "use_cache": true,
+    "torch_dtype": "None"
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": null,
+    "hidden_dropout_prob": null,
+    "vocab_size": 50257
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 50257,
+    "model_max_length": 1024,
+    "special_tokens": [
+      "<|endoftext|>",
+      "<|endoftext|>",
+      "<|endoftext|>"
+    ]
+  },
+  "model_type": "gpt2"
+}
