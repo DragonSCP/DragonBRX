@@ -1,0 +1,45 @@
+{
+  "model_name": "facebook/blenderbot-400M-distill",
+  "timestamp": "2025-11-26T12:30:58.099807",
+  "architecture": {
+    "hidden_size": 1280,
+    "num_hidden_layers": 2,
+    "num_attention_heads": 32,
+    "intermediate_size": null,
+    "hidden_act": null,
+    "max_position_embeddings": 128,
+    "model_type": "blenderbot"
+  },
+  "training_insights": {
+    "layer_norm_eps": null,
+    "initializer_range": null,
+    "use_cache": true,
+    "torch_dtype": "None"
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": null,
+    "hidden_dropout_prob": null,
+    "vocab_size": 8008
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 8008,
+    "model_max_length": 128,
+    "special_tokens": [
+      "<s>",
+      "</s>",
+      "<unk>",
+      "</s>",
+      "<pad>",
+      "<s>",
+      "<mask>"
+    ]
+  },
+  "model_type": "blenderbot"
+}
