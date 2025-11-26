@@ -1,0 +1,66 @@
+{
+  "model_name": "gpt2",
+  "timestamp": "2025-11-26T12:42:47.386082",
+  "architecture": {
+    "hidden_size": 768,
+    "num_hidden_layers": 12,
+    "num_attention_heads": 12,
+    "num_key_value_heads": null,
+    "intermediate_size": null,
+    "hidden_act": null,
+    "max_position_embeddings": 1024,
+    "model_type": "gpt2",
+    "rope_theta": null,
+    "rms_norm_eps": null,
+    "tie_word_embeddings": true,
+    "head_dim": 64
+  },
+  "training_insights": {
+    "layer_norm_eps": null,
+    "initializer_range": 0.02,
+    "use_cache": true,
+    "torch_dtype": "None",
+    "transformers_version": null,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ]
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": null,
+    "hidden_dropout_prob": null,
+    "classifier_dropout": null,
+    "vocab_size": 50257,
+    "pad_token_id": null,
+    "bos_token_id": 50256,
+    "eos_token_id": 50256
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": null,
+    "use_parallel_attention": null,
+    "attention_bias": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 50257,
+    "model_max_length": 1024,
+    "special_tokens": [
+      "<|endoftext|>",
+      "<|endoftext|>",
+      "<|endoftext|>"
+    ],
+    "padding_side": "right",
+    "truncation_side": "right"
+  },
+  "efficiency_metrics": {
+    "estimated_total_params": 123532032,
+    "params_in_billions": 0.123532032,
+    "embedding_ratio": 0.31244832109618337,
+    "attention_ratio": 0.22918389296793887,
+    "mlp_ratio": 0.45836778593587774
+  },
+  "model_type": "gpt2",
+  "parameter_count": 162129408
+}
