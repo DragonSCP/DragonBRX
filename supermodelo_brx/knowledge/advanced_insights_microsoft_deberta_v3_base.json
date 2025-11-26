@@ -1,6 +1,6 @@
 {
   "model_name": "microsoft/deberta-v3-base",
-  "timestamp": "2025-11-26T12:43:02.902618",
+  "timestamp": "2025-11-26T12:44:50.430497",
   "architecture": {
     "hidden_size": 768,
     "num_hidden_layers": 12,
