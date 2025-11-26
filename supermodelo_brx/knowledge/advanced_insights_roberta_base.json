@@ -1,0 +1,71 @@
+{
+  "model_name": "roberta-base",
+  "timestamp": "2025-11-26T12:42:54.335217",
+  "architecture": {
+    "hidden_size": 768,
+    "num_hidden_layers": 12,
+    "num_attention_heads": 12,
+    "num_key_value_heads": null,
+    "intermediate_size": 3072,
+    "hidden_act": "gelu",
+    "max_position_embeddings": 514,
+    "model_type": "roberta",
+    "rope_theta": null,
+    "rms_norm_eps": null,
+    "tie_word_embeddings": true,
+    "head_dim": 64,
+    "mlp_ratio": 4.0
+  },
+  "training_insights": {
+    "layer_norm_eps": 1e-05,
+    "initializer_range": 0.02,
+    "use_cache": true,
+    "torch_dtype": "None",
+    "transformers_version": null,
+    "architectures": [
+      "RobertaForMaskedLM"
+    ]
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": 0.1,
+    "hidden_dropout_prob": 0.1,
+    "classifier_dropout": null,
+    "vocab_size": 50265,
+    "pad_token_id": 1,
+    "bos_token_id": 0,
+    "eos_token_id": 2
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": 0.1,
+    "use_parallel_attention": null,
+    "attention_bias": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 50265,
+    "model_max_length": 512,
+    "special_tokens": [
+      "<s>",
+      "</s>",
+      "<unk>",
+      "</s>",
+      "<pad>",
+      "<s>",
+      "<mask>"
+    ],
+    "padding_side": "right",
+    "truncation_side": "right"
+  },
+  "efficiency_metrics": {
+    "estimated_total_params": 123538176,
+    "params_in_billions": 0.123538176,
+    "embedding_ratio": 0.3124825155262127,
+    "attention_ratio": 0.22917249482459576,
+    "mlp_ratio": 0.4583449896491915
+  },
+  "model_type": "roberta",
+  "parameter_count": 162141696
+}
