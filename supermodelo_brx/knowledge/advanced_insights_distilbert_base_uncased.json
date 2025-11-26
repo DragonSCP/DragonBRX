@@ -1,0 +1,68 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "timestamp": "2025-11-26T12:42:50.407720",
+  "architecture": {
+    "hidden_size": 768,
+    "num_hidden_layers": 6,
+    "num_attention_heads": 12,
+    "num_key_value_heads": null,
+    "intermediate_size": null,
+    "hidden_act": null,
+    "max_position_embeddings": 512,
+    "model_type": "distilbert",
+    "rope_theta": null,
+    "rms_norm_eps": null,
+    "tie_word_embeddings": true,
+    "head_dim": 64
+  },
+  "training_insights": {
+    "layer_norm_eps": null,
+    "initializer_range": 0.02,
+    "use_cache": null,
+    "torch_dtype": "None",
+    "transformers_version": "4.10.0.dev0",
+    "architectures": [
+      "DistilBertForMaskedLM"
+    ]
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": null,
+    "hidden_dropout_prob": null,
+    "classifier_dropout": null,
+    "vocab_size": 30522,
+    "pad_token_id": 0,
+    "bos_token_id": null,
+    "eos_token_id": null
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": null,
+    "use_parallel_attention": null,
+    "attention_bias": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 30522,
+    "model_max_length": 512,
+    "special_tokens": [
+      "[UNK]",
+      "[SEP]",
+      "[PAD]",
+      "[CLS]",
+      "[MASK]"
+    ],
+    "padding_side": "right",
+    "truncation_side": "right"
+  },
+  "efficiency_metrics": {
+    "estimated_total_params": 65908224,
+    "params_in_billions": 0.065908224,
+    "embedding_ratio": 0.3556596518212962,
+    "attention_ratio": 0.21478011605956793,
+    "mlp_ratio": 0.42956023211913585
+  },
+  "model_type": "distilbert",
+  "parameter_count": 89349120
+}
