@@ -1,0 +1,67 @@
+{
+  "model_name": "google/bert_uncased_L-4_H-512_A-8",
+  "timestamp": "2025-11-26T12:42:44.242522",
+  "architecture": {
+    "hidden_size": 512,
+    "num_hidden_layers": 4,
+    "num_attention_heads": 8,
+    "num_key_value_heads": null,
+    "intermediate_size": 2048,
+    "hidden_act": "gelu",
+    "max_position_embeddings": 512,
+    "model_type": "bert",
+    "rope_theta": null,
+    "rms_norm_eps": null,
+    "tie_word_embeddings": true,
+    "head_dim": 64,
+    "mlp_ratio": 4.0
+  },
+  "training_insights": {
+    "layer_norm_eps": 1e-12,
+    "initializer_range": 0.02,
+    "use_cache": true,
+    "torch_dtype": "None",
+    "transformers_version": null,
+    "architectures": null
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": 0.1,
+    "hidden_dropout_prob": 0.1,
+    "classifier_dropout": null,
+    "vocab_size": 30522,
+    "pad_token_id": 0,
+    "bos_token_id": null,
+    "eos_token_id": null
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": 0.1,
+    "use_parallel_attention": null,
+    "attention_bias": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 30522,
+    "model_max_length": 1000000000000000019884624838656,
+    "special_tokens": [
+      "[UNK]",
+      "[SEP]",
+      "[PAD]",
+      "[CLS]",
+      "[MASK]"
+    ],
+    "padding_side": "right",
+    "truncation_side": "right"
+  },
+  "efficiency_metrics": {
+    "estimated_total_params": 28210176,
+    "params_in_billions": 0.028210176,
+    "embedding_ratio": 0.55395840139388,
+    "attention_ratio": 0.14868053286870667,
+    "mlp_ratio": 0.29736106573741333
+  },
+  "model_type": "bert",
+  "parameter_count": 43837440
+}
