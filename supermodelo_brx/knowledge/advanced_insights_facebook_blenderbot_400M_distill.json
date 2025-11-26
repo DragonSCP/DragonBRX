@@ -1,0 +1,70 @@
+{
+  "model_name": "facebook/blenderbot-400M-distill",
+  "timestamp": "2025-11-26T12:42:37.796231",
+  "architecture": {
+    "hidden_size": 1280,
+    "num_hidden_layers": 2,
+    "num_attention_heads": 32,
+    "num_key_value_heads": null,
+    "intermediate_size": null,
+    "hidden_act": null,
+    "max_position_embeddings": 128,
+    "model_type": "blenderbot",
+    "rope_theta": null,
+    "rms_norm_eps": null,
+    "tie_word_embeddings": true,
+    "head_dim": 40
+  },
+  "training_insights": {
+    "layer_norm_eps": null,
+    "initializer_range": null,
+    "use_cache": true,
+    "torch_dtype": "None",
+    "transformers_version": "4.13.0.dev0",
+    "architectures": [
+      "BlenderbotForConditionalGeneration"
+    ]
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": null,
+    "hidden_dropout_prob": null,
+    "classifier_dropout": 0.0,
+    "vocab_size": 8008,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 2
+  },
+  "attention_config": {
+    "attention_head_size": null,
+    "scale_attention": null,
+    "rotary_embeddings": false,
+    "rope_theta": null,
+    "attention_dropout": null,
+    "use_parallel_attention": null,
+    "attention_bias": null
+  },
+  "tokenizer_specs": {
+    "vocab_size": 8008,
+    "model_max_length": 128,
+    "special_tokens": [
+      "<s>",
+      "</s>",
+      "<unk>",
+      "</s>",
+      "<pad>",
+      "<s>",
+      "<mask>"
+    ],
+    "padding_side": "right",
+    "truncation_side": "right"
+  },
+  "efficiency_metrics": {
+    "estimated_total_params": 49571840,
+    "params_in_billions": 0.04957184,
+    "embedding_ratio": 0.20677545961578186,
+    "attention_ratio": 0.2644081801280727,
+    "mlp_ratio": 0.5288163602561454
+  },
+  "model_type": "blenderbot",
+  "parameter_count": 59822080
+}
