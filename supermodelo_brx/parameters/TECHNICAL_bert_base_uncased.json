@@ -1,0 +1,42 @@
+{
+  "model_name": "bert-base-uncased",
+  "extraction_date": "2025-11-27T11:39:26.450074",
+  "📏 ARQUITETURA": {
+    "hidden_size": 768,
+    "num_hidden_layers": 12,
+    "num_attention_heads": 12,
+    "intermediate_size": 3072,
+    "max_position_embeddings": 512
+  },
+  "🎯 TREINAMENTO": {
+    "initializer_range": 0.02,
+    "layer_norm_eps": 1e-12
+  },
+  "⚡ OTIMIZAÇÃO": {
+    "attention_probs_dropout_prob": 0.1,
+    "hidden_dropout_prob": 0.1,
+    "vocab_size": 30522
+  },
+  "🧠 ATENÇÃO": {
+    "num_attention_heads": 12,
+    "rotary_embeddings": false
+  },
+  "📊 EFICIÊNCIA": {
+    "estimated_total_params": 108375552,
+    "params_in_billions": 0.108375552,
+    "embedding_ratio": 0.2162932097453123,
+    "attention_ratio": 0.26123559675156255,
+    "mlp_ratio": 0.5224711935031251
+  },
+  "🔤 TOKENIZER": {
+    "vocab_size": 30522,
+    "model_max_length": 512,
+    "special_tokens": [
+      "[UNK]",
+      "[SEP]",
+      "[PAD]",
+      "[CLS]",
+      "[MASK]"
+    ]
+  }
+}
