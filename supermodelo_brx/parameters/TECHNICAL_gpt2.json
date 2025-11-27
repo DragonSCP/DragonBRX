@@ -1,0 +1,40 @@
+{
+  "model_name": "gpt2",
+  "extraction_date": "2025-11-27T11:39:32.594993",
+  "📏 ARQUITETURA": {
+    "hidden_size": 768,
+    "num_hidden_layers": 12,
+    "num_attention_heads": 12,
+    "intermediate_size": "N/A",
+    "max_position_embeddings": 1024
+  },
+  "🎯 TREINAMENTO": {
+    "initializer_range": 0.02,
+    "layer_norm_eps": "N/A"
+  },
+  "⚡ OTIMIZAÇÃO": {
+    "attention_probs_dropout_prob": "N/A",
+    "hidden_dropout_prob": "N/A",
+    "vocab_size": 50257
+  },
+  "🧠 ATENÇÃO": {
+    "num_attention_heads": 12,
+    "rotary_embeddings": false
+  },
+  "📊 EFICIÊNCIA": {
+    "estimated_total_params": 66908928,
+    "params_in_billions": 0.066908928,
+    "embedding_ratio": 0.576864361061053,
+    "attention_ratio": 0.42313563893894696,
+    "mlp_ratio": 0.0
+  },
+  "🔤 TOKENIZER": {
+    "vocab_size": 50257,
+    "model_max_length": 1024,
+    "special_tokens": [
+      "<|endoftext|>",
+      "<|endoftext|>",
+      "<|endoftext|>"
+    ]
+  }
+}
