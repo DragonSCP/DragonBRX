@@ -1,0 +1,52 @@
+{
+  "model_metadata": {
+    "model_name": "bert-base-uncased",
+    "model_type": "bert",
+    "architectures": [
+      "BertForMaskedLM"
+    ],
+    "extraction_timestamp": "2025-11-27T11:39:26.449830"
+  },
+  "architecture_parameters": {
+    "hidden_size": 768,
+    "num_hidden_layers": 12,
+    "num_attention_heads": 12,
+    "intermediate_size": 3072,
+    "hidden_act": "gelu",
+    "max_position_embeddings": 512,
+    "vocab_size": 30522
+  },
+  "training_parameters": {
+    "initializer_range": 0.02,
+    "layer_norm_eps": 1e-12,
+    "learning_rate_suggested": 5e-05,
+    "weight_decay_suggested": 0.01
+  },
+  "attention_parameters": {
+    "num_attention_heads": 12,
+    "attention_probs_dropout_prob": 0.1,
+    "hidden_dropout_prob": 0.1,
+    "rotary_embeddings": false
+  },
+  "tokenizer_parameters": {
+    "vocab_size": 30522,
+    "model_max_length": 512,
+    "special_tokens": [
+      "[UNK]",
+      "[SEP]",
+      "[PAD]",
+      "[CLS]",
+      "[MASK]"
+    ]
+  },
+  "computed_metrics": {
+    "total_parameters": 108375552,
+    "parameters_in_billions": 0.108375552,
+    "embedding_parameters": 23440896,
+    "attention_parameters": 28311552,
+    "mlp_parameters": 56623104,
+    "embedding_ratio": 0.2162932097453123,
+    "attention_ratio": 0.26123559675156255,
+    "mlp_ratio": 0.5224711935031251
+  }
+}
