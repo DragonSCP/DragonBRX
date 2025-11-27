@@ -1,0 +1,30 @@
+{
+  "🚀 RESUMO VISÍVEL DE PARÂMETROS": {
+    "🔧 PARÂMETROS PRINCIPAIS": {
+      "Tamanho do Modelo": "0.038B parâmetros",
+      "Hidden Size": 768,
+      "Número de Camadas": 6,
+      "Número de Heads": 12,
+      "Tamanho do Vocabulário": 30522,
+      "Contexto Máximo": 512
+    },
+    "📊 DISTRIBUIÇÃO DE PARÂMETROS": {
+      "Embedding": "62.3%",
+      "Attention": "37.7%",
+      "MLP": "0.0%"
+    },
+    "⚙️ CONFIGURAÇÕES DE TREINAMENTO": {
+      "Taxa de Aprendizado Sugerida": 5e-05,
+      "Weight Decay": 0.01,
+      "Gradient Checkpointing": "N/A"
+    },
+    "🧠 MECANISMOS DE ATENÇÃO": {
+      "Heads de Attention": 12,
+      "Rotary Embeddings": false,
+      "Dropout de Attention": null
+    }
+  },
+  "📋 MODELO": "distilbert-base-uncased",
+  "📅 DATA DE EXTRAÇÃO": "2025-11-27T11:39:38.644006",
+  "🔍 DETALHES COMPLETOS": "Ver arquivos TECHNICAL e DETAILED para todos os parâmetros"
+}
