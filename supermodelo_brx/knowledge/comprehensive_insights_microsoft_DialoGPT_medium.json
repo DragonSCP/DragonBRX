@@ -1,0 +1,132 @@
+{
+  "model_name": "microsoft/DialoGPT-medium",
+  "timestamp": "2025-11-27T11:17:01.927186",
+  "architecture": {
+    "hidden_size": 1024,
+    "num_hidden_layers": 24,
+    "num_attention_heads": 16,
+    "intermediate_size": "N/A",
+    "hidden_act": "N/A",
+    "max_position_embeddings": 1024,
+    "model_type": "gpt2"
+  },
+  "training_insights": {
+    "layer_norm_eps": "N/A",
+    "initializer_range": 0.02,
+    "use_cache": true
+  },
+  "optimization_params": {
+    "attention_probs_dropout_prob": "N/A",
+    "hidden_dropout_prob": "N/A",
+    "vocab_size": 50257
+  },
+  "attention_config": {
+    "num_attention_heads": 16,
+    "scale_attention": "N/A",
+    "rotary_embeddings": false
+  },
+  "tokenizer_specs": {
+    "vocab_size": 50257,
+    "model_max_length": 1024,
+    "special_tokens": [
+      "<|endoftext|>",
+      "<|endoftext|>",
+      "<|endoftext|>"
+    ]
+  },
+  "efficiency_metrics": {
+    "estimated_total_params": 152126464,
+    "params_in_billions": 0.152126464,
+    "embedding_ratio": 0.3382920147279569,
+    "attention_ratio": 0.6617079852720431,
+    "mlp_ratio": 0.0
+  },
+  "model_type": "gpt2",
+  "parameter_count": 152126464,
+  "detailed_parameters": {
+    "model_metadata": {
+      "model_name": "microsoft/DialoGPT-medium",
+      "model_type": "gpt2",
+      "architectures": [
+        "GPT2LMHeadModel"
+      ],
+      "transformers_version": null,
+      "torch_dtype": "None",
+      "extraction_timestamp": "2025-11-27T11:17:01.927007"
+    },
+    "architecture_parameters": {
+      "hidden_size": 1024,
+      "num_hidden_layers": 24,
+      "num_attention_heads": 16,
+      "num_key_value_heads": null,
+      "intermediate_size": null,
+      "hidden_act": null,
+      "max_position_embeddings": 1024,
+      "vocab_size": 50257,
+      "initializer_range": 0.02,
+      "rope_theta": null,
+      "bos_token_id": 50256,
+      "eos_token_id": 50256,
+      "pad_token_id": null,
+      "head_dim": 64
+    },
+    "training_parameters": {
+      "initializer_range": 0.02,
+      "layer_norm_eps": 1e-12,
+      "learning_rate_suggested": 5e-05,
+      "weight_decay_suggested": 0.01,
+      "gradient_checkpointing": false,
+      "use_cache": true,
+      "tie_word_embeddings": true
+    },
+    "attention_parameters": {
+      "num_attention_heads": 16,
+      "attention_head_size": null,
+      "num_key_value_heads": null,
+      "attention_probs_dropout_prob": null,
+      "hidden_dropout_prob": null,
+      "scale_attention": true,
+      "rotary_embeddings": false,
+      "rope_theta": 10000.0
+    },
+    "normalization_parameters": {
+      "layer_norm_eps": 1e-12,
+      "rms_norm_eps": null
+    },
+    "optimization_parameters": {
+      "hidden_dropout_prob": null,
+      "attention_probs_dropout_prob": null,
+      "classifier_dropout": null
+    },
+    "embedding_parameters": {
+      "vocab_size": 50257,
+      "hidden_size": 1024,
+      "max_position_embeddings": 1024
+    },
+    "tokenizer_parameters": {
+      "vocab_size": 50257,
+      "model_max_length": 1024,
+      "padding_side": "right",
+      "special_tokens": [
+        "<|endoftext|>",
+        "<|endoftext|>",
+        "<|endoftext|>"
+      ]
+    },
+    "computed_metrics": {
+      "total_parameters": 152126464,
+      "parameters_in_billions": 0.152126464,
+      "embedding_parameters": 51463168,
+      "attention_parameters": 100663296,
+      "mlp_parameters": 0,
+      "embedding_ratio": 0.3382920147279569,
+      "attention_ratio": 0.6617079852720431,
+      "mlp_ratio": 0.0
+    },
+    "advanced_analysis": {
+      "model_scale": "small",
+      "efficiency_rating": "medium",
+      "recommended_use_case": "general"
+    }
+  }
+}
